@@ -1,0 +1,9 @@
+line
+100 100 0 200 200 0
+display
+rotate
+y 30
+apply
+display
+save
+pic.png
