@@ -6,7 +6,6 @@ def parse_file( fname, edge, transform, screen, color ):
     cmds = open(fname,'r').read().split("\n")
     i = 0 
     while i < len(cmds):
-        print cmds[i]
         if cmds[i] == "line":
             params = cmds[i+1].split(" ")
             add_edge(edge ,int(params[0]), int(params[1]), int(params[2]), int(params[3]), int(params[4]), int(params[5]))
